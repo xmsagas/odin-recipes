@@ -37,11 +37,14 @@ h1 {
 
 a {
     text-decoration: none;
-    margin: 0 20px;
+    margin: 4vh auto;
     background-color: burlywood;
     color: black;
     padding: 10px;
     border-radius: 12px;
+    display: block;
+    width: 75%;
+    text-align: center;
 }
 
 a:hover {
@@ -56,23 +59,20 @@ img {
 
 h2 {
     text-align: center;
-    margin: 2vh;
+    margin: 5vh 0 2vh;
 }
 
 p {
-    padding: 1vh 6vh 2vh;
+    padding: 1vh 8vh 2vh;
     text-align: center;
+    font-size: large;
 }
 
-ul {
+ul, ol {
     padding: 0 20%;
+    font-size: large;
 }
 
-ol {
-    padding: 0 20%;
-    margin-bottom: 3vh;
-}
-
-ol li {
-    margin-bottom: 1vh;
+ol li, ul li {
+    margin-bottom: 2vh;
 }
